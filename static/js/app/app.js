@@ -6,7 +6,6 @@
 			var self		= this,
 				list 		= $('#list'),
 				nav 		= $('nav'),
-				tap 		= ((document.ontouchstart !== null) ? 'click' : 'touchstart'),
 				storedState	= localStorage.getItem('state'),
 				storedList 	= localStorage.getItem('list');
 
@@ -55,7 +54,7 @@
 			localStorage.setItem('list', el.parentNode.innerHTML);
 		}
 
-	},
+	};
 
 	utils = {
 		init: function() {
@@ -78,9 +77,3 @@
 
 })();
 
-/*
-ToDo:
-	# Nav to the side
-	# HomeIcons
-	# SwipeRight to delete (http://www.webdevbreak.com/episodes/touch-gestures-hammerjs-1)
-*/
