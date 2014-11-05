@@ -77,12 +77,6 @@ nav ul {
 			color:#fff;
 			font-size:2.5em;
 		}
-		a[data-state="shop"] {
-			xbackground-color: blue;
-		}
-		a[data-state="clear"] {
-			xbackground-color: red;
-		}
 
 .loader {
 	display:none;
